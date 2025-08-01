@@ -1,0 +1,30 @@
+{
+  "name": "speed-boat-project",
+  "version": "1.0.0",
+  "description": "Speed Boat implementation with conflicting specifications",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "npm run build:engine && npm run build:hull",
+    "build:engine": "echo 'Building engine components...'",
+    "build:hull": "echo 'Building hull components...'",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "three": "^0.155.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "eslint": "^8.52.0"
+  },
+  "keywords": [
+    "speed-boat",
+    "marine",
+    "engineering"
+  ],
+  "author": "Speed Boat Team",
+  "license": "MIT"
+}

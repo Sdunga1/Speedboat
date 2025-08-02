@@ -1,28 +1,39 @@
-# Speed Boat Project
+# Speedboat
 
-This repository contains the implementation code for the Speed Boat project.
+This repository has the implementation of speed boat polarion requirements.
 
-## Project Overview
+## Overview
 
-A high-performance speed boat designed for recreational use and competitive racing.
+This project contains the implementation code for the Speed Boat project, organized into modular components representing different parts of a speedboat.
 
-## Technical Specifications
+## Project Structure
 
-- **Maximum Speed:** 50 knots (CONFLICT: Requirements specify 45 knots)
-- **Boat Length:** 28 feet (COMPLIANT: Requirements specify 28 feet)
-- **Engine Power:** 400 HP (CONFLICT: Requirements specify 350 HP)
-- **Fuel Capacity:** 120 gallons (COMPLIANT: Requirements specify 120 gallons)
-- **Passenger Capacity:** 9 passengers (COMPLIANT: Requirements specify 9 passengers)
-- **Hull Material:** Fiberglass (CONFLICT: Requirements specify aluminum)
-
-## Installation
-
-```bash
-npm install
-npm run build
-npm start
+```
+Speedboat/
+├── README.md          # Project documentation
+├── requirements.md    # Detailed requirements specification
+├── package.json       # Node.js dependencies and scripts
+├── index.js          # Main application entry point
+└── src/              # Source code modules
+    ├── engine/       # Engine systems
+    ├── hull/         # Hull components
+    ├── main/         # Core functionality
+    └── safety/       # Safety systems
 ```
 
-## Usage
+## Modules
 
-See individual component files for detailed implementation.
+- **Engine**: Engine management and control systems
+- **Hull**: Hull design and structural components
+- **Main**: Core application logic and main functionality
+- **Safety**: Safety systems and protocols
+
+## Getting Started
+
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Run the application: `node index.js`
+
+## Requirements
+
+See `requirements.md` for detailed project requirements and specifications.
